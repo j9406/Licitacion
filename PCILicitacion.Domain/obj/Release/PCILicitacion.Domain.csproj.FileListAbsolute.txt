@@ -1,0 +1,15 @@
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\PCILicitacion.Domain.dll.config
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\PCILicitacion.Domain.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\PCILicitacion.Domain.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\EntityFramework.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\PCILicitacion.Model.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\PCILicitacion.Model.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\EntityFramework.xml
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Release\PCILicitacion.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Release\PCILicitacion.Domain.Migrations.ModelCreation.resources
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Release\PCILicitacion.Domain.Migrations.ViewCreation.resources
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Release\PCILicitacion.Domain.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Release\PCILicitacion.Domain.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Release\PCILicitacion.Domain.pdb

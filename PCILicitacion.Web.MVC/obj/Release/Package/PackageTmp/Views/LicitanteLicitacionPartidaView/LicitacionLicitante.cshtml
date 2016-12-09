@@ -1,0 +1,63 @@
+﻿@model IEnumerable<PCILicitacion.Domain.LicitanteLicitacionPartidaView>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LicitacionPartidaId)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.LicitadorNombre)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoMarca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoCantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor( model => model.ProductoObservaciones )
+        </th>
+        @*<th></th>*@
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LicitacionPartidaId )
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.LicitadorNombre)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoMarca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoCantidad )
+        </td>
+        <td>
+            @Html.DisplayFor( modelItem => item.ProductoObservaciones )
+        </td>
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+    </tr>
+}
+
+</table>

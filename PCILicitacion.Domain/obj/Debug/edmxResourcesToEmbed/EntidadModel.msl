@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntidadModelStoreContainer" CdmEntityContainer="PCILicitacionEntities">
+    <EntitySetMapping Name="LicitacionPartidaProductoView">
+      <EntityTypeMapping TypeName="EntidadModel.LicitacionPartidaProductoView">
+        <MappingFragment StoreEntitySet="LicitacionPartidaProductoView">
+          <ScalarProperty Name="LicitanteId" ColumnName="LicitanteId" />
+          <ScalarProperty Name="Licitante" ColumnName="Licitante" />
+          <ScalarProperty Name="LicitadorId" ColumnName="LicitadorId" />
+          <ScalarProperty Name="Licitador" ColumnName="Licitador" />
+          <ScalarProperty Name="LicitacionId" ColumnName="LicitacionId" />
+          <ScalarProperty Name="LicitacionPartidaId" ColumnName="LicitacionPartidaId" />
+          <ScalarProperty Name="LicitacionPartidaProductoId" ColumnName="LicitacionPartidaProductoId" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="ProductoNombre" ColumnName="ProductoNombre" />
+          <ScalarProperty Name="ProductoCantidad" ColumnName="ProductoCantidad" />
+          <ScalarProperty Name="ProductoObservaciones" ColumnName="ProductoObservaciones" />
+          <ScalarProperty Name="ProductoMarcaId" ColumnName="ProductoMarcaId" />
+          <ScalarProperty Name="ProductoMarca" ColumnName="ProductoMarca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LicitacionPartidaView">
+      <EntityTypeMapping TypeName="EntidadModel.LicitacionPartidaView">
+        <MappingFragment StoreEntitySet="LicitacionPartidaView">
+          <ScalarProperty Name="LicitanteId" ColumnName="LicitanteId" />
+          <ScalarProperty Name="Licitante" ColumnName="Licitante" />
+          <ScalarProperty Name="LicitadorId" ColumnName="LicitadorId" />
+          <ScalarProperty Name="Licitador" ColumnName="Licitador" />
+          <ScalarProperty Name="LicitacionId" ColumnName="LicitacionId" />
+          <ScalarProperty Name="LicitacionPartidaId" ColumnName="LicitacionPartidaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LicitanteLicitacionView">
+      <EntityTypeMapping TypeName="EntidadModel.LicitanteLicitacionView">
+        <MappingFragment StoreEntitySet="LicitanteLicitacionView">
+          <ScalarProperty Name="LicitanteId" ColumnName="LicitanteId" />
+          <ScalarProperty Name="LicitanteNombre" ColumnName="LicitanteNombre" />
+          <ScalarProperty Name="LicitadorId" ColumnName="LicitadorId" />
+          <ScalarProperty Name="LicitadorNombre" ColumnName="LicitadorNombre" />
+          <ScalarProperty Name="LicitacionId" ColumnName="LicitacionId" />
+          <ScalarProperty Name="LicitacionNombre" ColumnName="LicitacionNombre" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaCierre" ColumnName="FechaCierre" />
+          <ScalarProperty Name="FechaAdjudicacion" ColumnName="FechaAdjudicacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

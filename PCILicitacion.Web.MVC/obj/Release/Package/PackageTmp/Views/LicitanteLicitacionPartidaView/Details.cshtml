@@ -1,0 +1,58 @@
+﻿@model PCILicitacion.Domain.LicitanteLicitacionPartidaView
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LicitanteLicitacionPartidaView</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitadorId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitadorId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitadorNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitadorNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductoNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductoNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductoMarca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductoMarca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitanteNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitanteNombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

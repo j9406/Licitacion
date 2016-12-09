@@ -1,0 +1,30 @@
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Domain.dll.config
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Domain.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Domain.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Model.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Model.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.Migrations.ModelCreation.resources
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.Migrations.ViewCreation.resources
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Domain.dll.config
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Domain.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Domain.pdb
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Model.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\PCILicitacion.Model.pdb
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.xml
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.csprojResolveAssemblyReference.cache
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.Migrations.ModelCreation.resources
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.Migrations.ModelUpdate.resources
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.csproj.GenerateResource.Cache
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Domain\obj\Debug\PCILicitacion.Domain.pdb

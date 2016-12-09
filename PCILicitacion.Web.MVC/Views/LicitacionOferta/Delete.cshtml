@@ -1,0 +1,56 @@
+﻿@model PCILicitacion.Model.LicitacionOferta
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LicitacionOferta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Licitacion.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Licitacion.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Licitante.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Licitante.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaOferta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaOferta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaVigencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaVigencia)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

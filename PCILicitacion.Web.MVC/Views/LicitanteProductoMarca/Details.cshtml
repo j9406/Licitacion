@@ -1,0 +1,42 @@
+﻿@model PCILicitacion.Model.LicitanteProductoMarca
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LicitanteProductoMarca</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Licitante.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Licitante.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Producto.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Producto.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductoMarca.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductoMarca.Nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

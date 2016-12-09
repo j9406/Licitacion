@@ -1,0 +1,82 @@
+﻿@model PCILicitacion.Domain.LicitanteLicitacionView
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LicitanteLicitacionView</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitacionNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitacionNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitadorId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitadorId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitadorNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitadorNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCreacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCreacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaCierre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaCierre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaAdjudicacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaAdjudicacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observaciones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observaciones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LicitanteNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LicitanteNombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\bin\Release\PCILicitacion.Model.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\bin\Release\PCILicitacion.Model.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\obj\Release\PCILicitacion.Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\obj\Release\PCILicitacion.Model.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\obj\Release\PCILicitacion.Model.pdb

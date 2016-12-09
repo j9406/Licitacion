@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntidadModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PCILicitacionEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LicitanteLicitacionPartidaView" EntityType="EntidadModel.LicitanteLicitacionPartidaView" />
+    <EntitySet Name="LicitanteLicitacionView" EntityType="EntidadModel.LicitanteLicitacionView" />
+  </EntityContainer>
+  <EntityType Name="LicitanteLicitacionPartidaView">
+    <Key>
+      <PropertyRef Name="LicitacionId" />
+      <PropertyRef Name="ProductoId" />
+      <PropertyRef Name="ProductoMarcaId" />
+      <PropertyRef Name="LicitanteId" />
+      <PropertyRef Name="LicitacionPartidaId" />
+      <PropertyRef Name="ProductoCantidad" />
+    </Key>
+    <Property Name="LicitacionId" Type="Int64" Nullable="false" />
+    <Property Name="LicitadorId" Type="Int64" Nullable="false" />
+    <Property Name="LicitadorNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProductoId" Type="Int64" Nullable="false" />
+    <Property Name="ProductoNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProductoMarcaId" Type="Int64" Nullable="false" />
+    <Property Name="ProductoMarca" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LicitanteId" Type="Int64" Nullable="false" />
+    <Property Name="LicitanteNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LicitacionPartidaId" Type="Int64" Nullable="false" />
+    <Property Name="ProductoCantidad" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ProductoObservaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LicitanteLicitacionView">
+    <Key>
+      <PropertyRef Name="LicitacionId" />
+      <PropertyRef Name="LicitanteId" />
+    </Key>
+    <Property Name="LicitacionId" Type="Int64" Nullable="false" />
+    <Property Name="LicitacionNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LicitadorId" Type="Int64" Nullable="false" />
+    <Property Name="LicitadorNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaCierre" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaAdjudicacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Observaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LicitanteId" Type="Int64" Nullable="false" />
+    <Property Name="LicitanteNombre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

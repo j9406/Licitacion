@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntidadModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'PCILicitacion.dbo.LicitacionPartidaProductoView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="LicitacionPartidaProductoView">
+    <Key>
+      <PropertyRef Name="LicitanteId" />
+      <PropertyRef Name="LicitadorId" />
+      <PropertyRef Name="LicitacionId" />
+      <PropertyRef Name="LicitacionPartidaId" />
+      <PropertyRef Name="LicitacionPartidaProductoId" />
+      <PropertyRef Name="ProductoId" />
+      <PropertyRef Name="ProductoCantidad" />
+      <PropertyRef Name="ProductoMarcaId" />
+    </Key>
+    <Property Name="LicitanteId" Type="bigint" Nullable="false" />
+    <Property Name="Licitante" Type="nvarchar" MaxLength="200" />
+    <Property Name="LicitadorId" Type="bigint" Nullable="false" />
+    <Property Name="Licitador" Type="nvarchar" MaxLength="200" />
+    <Property Name="LicitacionId" Type="bigint" Nullable="false" />
+    <Property Name="LicitacionPartidaId" Type="bigint" Nullable="false" />
+    <Property Name="LicitacionPartidaProductoId" Type="bigint" Nullable="false" />
+    <Property Name="ProductoId" Type="bigint" Nullable="false" />
+    <Property Name="ProductoNombre" Type="nvarchar" MaxLength="200" />
+    <Property Name="ProductoCantidad" Type="int" Nullable="false" />
+    <Property Name="ProductoObservaciones" Type="nvarchar(max)" />
+    <Property Name="ProductoMarcaId" Type="bigint" Nullable="false" />
+    <Property Name="ProductoMarca" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'PCILicitacion.dbo.LicitacionPartidaView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="LicitacionPartidaView">
+    <Key>
+      <PropertyRef Name="LicitanteId" />
+      <PropertyRef Name="LicitadorId" />
+      <PropertyRef Name="LicitacionId" />
+      <PropertyRef Name="LicitacionPartidaId" />
+    </Key>
+    <Property Name="LicitanteId" Type="bigint" Nullable="false" />
+    <Property Name="Licitante" Type="nvarchar" MaxLength="200" />
+    <Property Name="LicitadorId" Type="bigint" Nullable="false" />
+    <Property Name="Licitador" Type="nvarchar" MaxLength="200" />
+    <Property Name="LicitacionId" Type="bigint" Nullable="false" />
+    <Property Name="LicitacionPartidaId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'PCILicitacion.dbo.LicitanteLicitacionView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="LicitanteLicitacionView">
+    <Key>
+      <PropertyRef Name="LicitanteId" />
+      <PropertyRef Name="LicitadorId" />
+      <PropertyRef Name="LicitacionId" />
+      <PropertyRef Name="FechaCreacion" />
+      <PropertyRef Name="FechaCierre" />
+      <PropertyRef Name="FechaAdjudicacion" />
+    </Key>
+    <Property Name="LicitanteId" Type="bigint" Nullable="false" />
+    <Property Name="LicitanteNombre" Type="nvarchar" MaxLength="200" />
+    <Property Name="LicitadorId" Type="bigint" Nullable="false" />
+    <Property Name="LicitadorNombre" Type="nvarchar" MaxLength="200" />
+    <Property Name="LicitacionId" Type="bigint" Nullable="false" />
+    <Property Name="LicitacionNombre" Type="nvarchar" MaxLength="200" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="FechaCierre" Type="datetime" Nullable="false" />
+    <Property Name="FechaAdjudicacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EntidadModelStoreContainer">
+    <EntitySet Name="LicitacionPartidaProductoView" EntityType="Self.LicitacionPartidaProductoView" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [LicitacionPartidaProductoView].[LicitanteId] AS [LicitanteId], 
+    [LicitacionPartidaProductoView].[Licitante] AS [Licitante], 
+    [LicitacionPartidaProductoView].[LicitadorId] AS [LicitadorId], 
+    [LicitacionPartidaProductoView].[Licitador] AS [Licitador], 
+    [LicitacionPartidaProductoView].[LicitacionId] AS [LicitacionId], 
+    [LicitacionPartidaProductoView].[LicitacionPartidaId] AS [LicitacionPartidaId], 
+    [LicitacionPartidaProductoView].[LicitacionPartidaProductoId] AS [LicitacionPartidaProductoId], 
+    [LicitacionPartidaProductoView].[ProductoId] AS [ProductoId], 
+    [LicitacionPartidaProductoView].[ProductoNombre] AS [ProductoNombre], 
+    [LicitacionPartidaProductoView].[ProductoCantidad] AS [ProductoCantidad], 
+    [LicitacionPartidaProductoView].[ProductoObservaciones] AS [ProductoObservaciones], 
+    [LicitacionPartidaProductoView].[ProductoMarcaId] AS [ProductoMarcaId], 
+    [LicitacionPartidaProductoView].[ProductoMarca] AS [ProductoMarca]
+    FROM [dbo].[LicitacionPartidaProductoView] AS [LicitacionPartidaProductoView]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="LicitacionPartidaView" EntityType="Self.LicitacionPartidaView" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [LicitacionPartidaView].[LicitanteId] AS [LicitanteId], 
+    [LicitacionPartidaView].[Licitante] AS [Licitante], 
+    [LicitacionPartidaView].[LicitadorId] AS [LicitadorId], 
+    [LicitacionPartidaView].[Licitador] AS [Licitador], 
+    [LicitacionPartidaView].[LicitacionId] AS [LicitacionId], 
+    [LicitacionPartidaView].[LicitacionPartidaId] AS [LicitacionPartidaId]
+    FROM [dbo].[LicitacionPartidaView] AS [LicitacionPartidaView]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="LicitanteLicitacionView" EntityType="Self.LicitanteLicitacionView" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [LicitanteLicitacionView].[LicitanteId] AS [LicitanteId], 
+    [LicitanteLicitacionView].[LicitanteNombre] AS [LicitanteNombre], 
+    [LicitanteLicitacionView].[LicitadorId] AS [LicitadorId], 
+    [LicitanteLicitacionView].[LicitadorNombre] AS [LicitadorNombre], 
+    [LicitanteLicitacionView].[LicitacionId] AS [LicitacionId], 
+    [LicitanteLicitacionView].[LicitacionNombre] AS [LicitacionNombre], 
+    [LicitanteLicitacionView].[Observaciones] AS [Observaciones], 
+    [LicitanteLicitacionView].[FechaCreacion] AS [FechaCreacion], 
+    [LicitanteLicitacionView].[FechaCierre] AS [FechaCierre], 
+    [LicitanteLicitacionView].[FechaAdjudicacion] AS [FechaAdjudicacion]
+    FROM [dbo].[LicitanteLicitacionView] AS [LicitanteLicitacionView]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

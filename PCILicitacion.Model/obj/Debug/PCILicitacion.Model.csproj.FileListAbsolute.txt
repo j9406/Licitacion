@@ -1,0 +1,9 @@
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\bin\Debug\PCILicitacion.Model.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\bin\Debug\PCILicitacion.Model.pdb
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\obj\Debug\PCILicitacion.Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\obj\Debug\PCILicitacion.Model.dll
+C:\Users\Administrator\Source\Repos\PCILicitacion\PCILicitacion\PCILicitacion.Model\obj\Debug\PCILicitacion.Model.pdb
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Model\bin\Debug\PCILicitacion.Model.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Model\bin\Debug\PCILicitacion.Model.pdb
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Model\obj\Debug\PCILicitacion.Model.dll
+C:\Users\javier\Documents\Visual Studio 2015\Projects\PCILicitacion\PCILicitacion.Model\obj\Debug\PCILicitacion.Model.pdb

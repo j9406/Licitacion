@@ -1,0 +1,86 @@
+﻿@model IEnumerable<PCILicitacion.Domain.LicitanteLicitacionView>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor( model => model.LicitacionId )
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LicitacionNombre)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.LicitadorId)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.LicitadorNombre)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.FechaCreacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaCierre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaAdjudicacion)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Observaciones)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LicitanteNombre)
+        </th>*@
+        @*<th></th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor( modelItem => item.LicitacionId )
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LicitacionNombre)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.LicitadorId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LicitadorNombre)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaCreacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaCierre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaAdjudicacion)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Observaciones)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LicitanteNombre)
+        </td>*@
+        @*<td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+        <td>
+              @Html.ActionLink( "Partidas", "LicitacionLicitante", "LicitacionPartidaProductoView", new { LicitacionId = item.LicitacionId, LicitanteID = item.LicitanteId }, null )
+            | @Html.ActionLink( "Ofertas", "LicitacionLicitante", "LicitacionOferta", new { LicitacionId = item.LicitacionId, LicitanteID = item.LicitanteId }, null )
+        </td>
+    </tr>
+}
+
+</table>

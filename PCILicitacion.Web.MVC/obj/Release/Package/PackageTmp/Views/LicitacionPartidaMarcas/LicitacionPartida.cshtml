@@ -1,0 +1,43 @@
+﻿@model IEnumerable<PCILicitacion.Model.LicitacionPartidaMarcas>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Marcas Licitables</h2>
+
+<p>
+    @Html.ActionLink("Create New", "LicitacionPartidaCreate", new { Id = ViewBag.licitacionPartida.Id } )
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LicitacionPartida.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoMarca.Nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LicitacionPartida.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoMarca.Nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
+
+<div>
+    @Html.ActionLink( "Partidas", "Licitacion", "LicitacionPartida", new { Id = ViewBag.licitacionPartida.LicitacionId }, null )
+</div>
